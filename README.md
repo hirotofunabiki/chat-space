@@ -16,7 +16,7 @@
 |group_id|integer|null: false, foreign_key: true|
 ### association
 - belongs_to :group
-- belongs_to :users
+- belongs_to :user
 
 ## groups_table
 |Column|Type|Options|
