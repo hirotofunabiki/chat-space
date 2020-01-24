@@ -21,7 +21,7 @@
 ## groups_table
 |Column|Type|Options|
 |------|----|-------|
-|name|integer|null: false, foreign_key: true|
+|name|string|null: false, foreign_key: true|
 
 ### association
 - has_many :group_users
