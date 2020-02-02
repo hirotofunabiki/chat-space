@@ -2,12 +2,13 @@
   .side_header
     .side_header__box
       .side_header__box__user_name
-        hiro
+        = current_user.name
       .side_header__box__menu 
         .side_header__box__menu__new_group
           %i.fas.fa-cog
         .side_header__box__menu__edit_user
-          %i.fas.fa-edit
+          = link_to edit_user_path(current_user) do
+            %i.fas.fa-edit
           
     
   .group_list
